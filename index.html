@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <form class="form">
+        <i class="far fa-user-circle form__icon"></i>
+        <input onsubmit="text()" type="text" placeholder="Your text" class="inp form__inp">
+        <input type="text" placeholder="Cut your text start" class="inp form__cut-start-inp">
+        <input type="text" placeholder="Cut your text end" class="inp form__cut-end-inp">
+        <button onclick="cut(event)" class="form__btn">Find a letter</button>
+    </form>
+    <script src="./js/main.js"></script>
+</body>
+</html>
